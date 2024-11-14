@@ -289,6 +289,121 @@ html {
   transform: scale(1.03);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
 }
+/* Contact Section Styling */
+#contact {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  display: flex;
+  justify-content: center;
+  color: #333;
+}
+
+.contact-container {
+  max-width: 700px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Contact Info Section */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.contact-detail i {
+  color: #00aeef;
+  font-size: 1.5em;
+}
+
+/* Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 1em;
+  margin-bottom: 8px;
+  color: #555;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1em;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #00aeef;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 12px;
+  font-size: 1em;
+  color: white;
+  background-color: #00aeef;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #00aeef;
+  transform: translateY(-2px);
+}
+
+/* Social Media Icons */
+.social-media {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon {
+  color: #00aeef;
+  font-size: 1.5em;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #00aeef;
+  transform: scale(1.1);
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
